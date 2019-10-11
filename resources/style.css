@@ -1,0 +1,200 @@
+header{
+    background-image: url(./images/map.png);
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font: 30px/2.0 Arial;
+    text-align: center;
+}
+
+/* Splits the display into 2 columns, one for the times and coordinates, one for the 
+    buttons and table
+*/
+.wrapper{
+    padding: 30px 30px 30px 30px;
+    height: 500px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.wrapper > div :nth-child(even){
+    position: relative;
+}
+
+#tableTitle{
+    font: 40px/1.0 'Saira Condensed', Arial, sans-serif; 
+    text-align: center;
+    color: white;
+}
+
+#eventList{
+    padding-top: 20px;
+
+    font: 30px/1.0 'Saira Condensed', Arial, sans-serif; 
+    height: 320px;
+    width: 680px;
+    position: absolute;
+    list-style-type: none;
+    overflow: auto;
+    text-align: center;
+    color: lightcyan;
+}
+
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Left hand side of the layout */
+#time{
+
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+    font: 80px/1.0 'Saira Condensed', Arial, sans-serif; 
+    color: whitesmoke;
+
+}
+
+#timeZone{
+    text-align: center;
+
+    padding: 10x 30px 60px 30px;
+
+    font: 40px/1.0 'Saira Condensed', Arial, sans-serif; 
+    color: lightblue;
+
+}
+
+#elapsed{
+    border-radius: 25px;
+    background-color:darkslategray ;
+    text-align: center;
+    padding: 50px 20px 50px 20px;
+    font: 80px/1.0 Arial, sans-serif; 
+
+    color: lightgreen;
+
+}
+
+#coords{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    text-align: left;
+    height: 50px;
+    font: 25px/1.0 Arial, sans-serif; 
+    color: lightyellow;
+    grid-template-columns: 50% 50%;
+    column-gap: 1em;
+    row-gap: 1em;
+    display: inline-block
+}
+
+/* Right hand side of the layout */
+#locationTable{
+    padding-bottom: 30px;
+    overflow: auto;
+    font: 25px/1.0 'Saira Condensed', Arial, sans-serif; 
+
+    text-align: center;
+    height: 350px;
+    background-color:  #d1e0e0;
+}
+
+#startButton{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    
+    height: 75px;
+    width: 250px;
+    background-color: lightblue;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 25px 32px;
+    vertical-align: middle;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#startText{
+    line-height: 100px;
+
+    font: 50px/1.0 'Saira Condensed', Arial, sans-serif; 
+    vertical-align: center;
+    color: black;
+    text-align: center;
+}
+
+#resetButton{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    bottom: 0;
+    left: 0;
+    height: 75px;
+    width: 75px;
+    background-color: maroon;
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    vertical-align: middle;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#resetText{
+    line-height: 80px; 
+
+    font: 23px/1.0 'Saira Condensed', Arial, sans-serif; 
+    vertical-align: center;
+    color: white;
+    text-align: center;
+}
+
+#coordButton{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+  
+    bottom: 0;
+    left: 0;
+    height: 75px;
+    width: 75px;
+    background-color: darkslategrey;
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    vertical-align: middle;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#coordsText{
+    line-height: 100px; 
+
+    font: 23px/1.0 'Saira Condensed', Arial, sans-serif; 
+    vertical-align: center;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font: 12px/1.0 Arial;
+}
+
+

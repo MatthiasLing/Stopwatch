@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Title and linked css file -->
+	<title> Stopwatch</title>
+	<link type="text/css" rel="stylesheet" href="./resources/style.css">
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<!-- header stuff -->
+	<header>
+		<div class="container">
+
+		</div>
+	</header>
+
+
+	<!--time  -->
+	<div class='wrapper'>
+		<!-- first column -->
+		<div>
+			<div id="time">
+				time
+			</div>
+
+			<div id="timeZone">
+				Central Daylight Time
+			</div>
+			<div id="elapsed">
+				0:00:00:00
+			</div>
+
+			<div id="coords">
+				Coordinates rendering ...
+
+			</div>
+
+		</div>
+
+		<!-- second column -->
+		<div>
+
+
+			<!-- This is the table where all the recorded events go -->
+			<table id="locationTable">
+				<div id="tableTitle">
+					History Table
+				</div>
+				<div>
+					<ui id="eventList">
+
+					</ui>
+				</div>
+
+			</table>
+			<div id="startButton">
+				<div id="startText">
+					start
+				</div>
+
+			</div>
+			<div id="resetButton">
+				<div id="resetText">
+					hold<br>to<br>reset
+				</div>
+
+			</div>
+			<div id="coordButton">
+				<div id="coordsText">
+					get<br>lat/long
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<p>
+			<strong>Created by Matthias Ling</strong><br> <br>“May the wind under your wings bear you where the sun
+			sails and the moon
+			walks.”
+			- J.R.R Tolkien
+		</p>
+
+	</footer>
+
+</body>
+<script src="./js/script.js"></script>
+
+</html>
