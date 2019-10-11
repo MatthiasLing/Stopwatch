@@ -7,6 +7,14 @@ This stopwatch is designed to be efficient and elegant, as well as easy to use a
 
 Its purpose is to track a user's location with simultaneously corresponding timings.
 
+# Functionality:
+
+• Records and tracks user's latitude/longitude, as well as elapsed time
+
+• Starting the stopwatch will log a user's location and time into the history table
+
+• User can also retrieve coordinates with corresponding button
+
 # Build Instructions:
 
 • Retrieve stopwatch folder from GitHub/Google Drive, unzip and move to desktop or other location
@@ -15,4 +23,5 @@ Its purpose is to track a user's location with simultaneously corresponding timi
 
 • Please accept the location permissions prompt when it pops up - this will occur on loading and otherwise through requesting it via the button.
 
+Note:
 As I have displayed the latitude before longitude on the main screen, the table also displays latitude first, although the columns are not explicitly labeled.  I thought this as acceptable because the table would reflect the displayed coordinates already and thus there would be no need to specify which was which twice.
